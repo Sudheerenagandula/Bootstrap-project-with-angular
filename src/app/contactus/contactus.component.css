@@ -1,0 +1,156 @@
+/* General Styles for Contact Section */
+#contact {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+#contact .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#contact h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+}
+
+#contact p {
+  font-size: 16px;
+  color: #555;
+}
+
+#contact .info-wrap {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#contact .info-item {
+  margin-bottom: 20px;
+}
+
+#contact .info-item i {
+  font-size: 20px;
+  color: #007bff;
+  margin-right: 15px;
+}
+
+#contact .info-item h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+#contact .info-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Contact Form Styles */
+.php-email-form {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.php-email-form input,
+.php-email-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+
+.php-email-form input:focus,
+.php-email-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.php-email-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.php-email-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Clear Form Button Styles */
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+  #contact .info-wrap {
+    margin-bottom: 30px;
+  }
+
+  #contact .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  #contact .info-item i {
+    font-size: 18px;
+  }
+
+  #contact .col-lg-7,
+  #contact .col-lg-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #contact .container {
+    padding: 0 15px;
+  }
+}
+
+/* Success and Error Messages */
+.php-email-form .loading,
+.php-email-form .error-message,
+.php-email-form .sent-message {
+  display: none;
+}
+
+.php-email-form .sent-message {
+  color: green;
+  font-size: 16px;
+}
+
+.php-email-form .error-message {
+  color: red;
+  font-size: 16px;
+}
+
+.php-email-form .loading {
+  font-size: 16px;
+  color: #007bff;
+}

@@ -1,0 +1,45 @@
+/* Clients Section */
+#clients {
+  padding: 60px 0;
+  background-color: #f9f9f9; /* Light background */
+}
+
+.swiper-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide:hover img {
+  transform: scale(1.05);
+}
+
+/* Pagination styling */
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #333;
+}
